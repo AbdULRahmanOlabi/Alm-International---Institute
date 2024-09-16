@@ -58,7 +58,7 @@ $body = '
   ';
 
 // Email subject
-$subject = "مدرسة علم الدولية - " . $_POST['subject'];
+$subject = "معهد علم الدولي - " . $_POST['subject'];
 
 // Send email and handle success or failure
 if (mail($recipient, $subject, $body, $emailheader)) {
